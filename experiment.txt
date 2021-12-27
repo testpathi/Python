@@ -1,0 +1,28 @@
+270  [2021-12-25 17:21:10 -0800] apt-get install bazel
+  271  [2021-12-25 17:21:20 -0800] sudo apt-get install bazel
+  272  [2021-12-25 17:21:55 -0800] sudo apt install pytest
+  273  [2021-12-25 17:22:14 -0800] sudo apt-get install pytest
+  274  [2021-12-25 17:22:36 -0800] sudo pip install pytest
+  275  [2021-12-25 17:24:29 -0800] sudo apt-get install pytest
+  276  [2021-12-25 17:27:10 -0800] sudo apt-get install python-pytest
+  277  [2021-12-25 17:32:32 -0800] pytest-3 --help
+  278  [2021-12-25 17:38:05 -0800] file /usr/bin/env
+  279  [2021-12-25 17:39:43 -0800] `env
+  280  [2021-12-25 17:39:47 -0800] env
+  281  [2021-12-25 17:39:55 -0800] env | grep pthon
+  282  [2021-12-25 17:40:02 -0800] env | grep python
+  283  [2021-12-25 17:40:08 -0800] env | grep bazel
+
+
+…or create a new repository on the command line
+echo "# Python" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/testpathi/Python.git
+git push -u origin main
+…or push an existing repository from the command line
+git remote add origin https://github.com/testpathi/Python.git
+git branch -M main
+git push -u origin main
